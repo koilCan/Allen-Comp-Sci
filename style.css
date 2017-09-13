@@ -3,8 +3,8 @@ body{
  background-color: #808080;
 }
 #content {
- /* Change background color */
- background-color: #f4fff3;
+ /* Change content color */
+ background-color: #e5e0e0;
   /* Make content pop out */
   border-style: outset;
   /* Add space between content and navigation bar */
@@ -32,7 +32,7 @@ body{
   padding: 0;
   border: none;
   height: 60px;
-  width: 99%;
+  width: 100%;
 }
 
 
