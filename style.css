@@ -1,10 +1,10 @@
 body{
  /* Change background color */
- background-color: #2E86C1;
+ background-color: #f4fff3;
 }
 #content {
  /* Change background color */
- background-color: #2ECC71;
+ background-color: #f4fff3;
   /* Make content pop out */
   border-style: outset;
   /* Add space between content and navigation bar */
@@ -35,9 +35,7 @@ body{
   width: 99%;
 }
 
-#navigation{
 
-}
 #navigation ul{
   /* Remove styles from ul in div navigation */
   list-style-type: none;
