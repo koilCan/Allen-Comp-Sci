@@ -1,0 +1,88 @@
+body{
+ /* Change background color */
+ background-color: #2E86C1;
+}
+#content {
+ /* Change background color */
+ background-color: #2ECC71;
+  /* Make content pop out */
+  border-style: outset;
+  /* Add space between content and navigation bar */
+  margin-top: 10px;
+}
+
+/* Change outline when hovering */
+#content:hover{
+  border-style: inset;
+  margin-top: 10px;
+}
+
+/* Create a margin between text and content div*/
+#content p{
+  margin-left: 5px;
+}
+
+#header{
+  /* Put the header div in the middle */
+  text-align: center; 
+}
+#header iframe{
+  /* Hide iframe border and set width and height */
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 60px;
+  width: 99%;
+}
+
+#navigation{
+
+}
+#navigation ul{
+  /* Remove styles from ul in div navigation */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* Change navigation background color */
+  background-color: #333;
+}
+
+#navigation li{
+  /* Hide list styles*/
+  float: left;
+  padding: 14px 16px;
+}
+
+#navigation a{
+  /* Change the styles of links */
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+#navigation li:hover {
+ /* Change background color of p.outline{
+60
+  border-style: outset;
+61
+}links when hovering over them */
+ background-color: #111;
+}
+
+/* Created a title outline using outset; Created a paragraph outline using outset */
+
+p.outline {
+   font-family: Courier;
+   font-weight: bold;
+  /*border-style: outset;
+  border-top-color: #ff0000*/
+}
+/* Make all links blue*/
+a:visited {
+ color: blue;
+}
+/* Change link color when hovering*/
+a:hover{
+ color: red;
+}
